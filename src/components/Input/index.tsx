@@ -12,7 +12,7 @@ interface InputProps {
   icon?: any
 }
 
-const Input = ({ name, placeholder, icon: Icon, ...rest }: InputProps) => {
+export const Input = ({ name, placeholder, icon: Icon, ...rest }: InputProps) => {
   const inputRef = useRef<any>(null);
 
   const [isFocused, setIsFocused] = useState(false);
@@ -53,5 +53,3 @@ const Input = ({ name, placeholder, icon: Icon, ...rest }: InputProps) => {
     </Container>
   );
 };
-
-export default Input;

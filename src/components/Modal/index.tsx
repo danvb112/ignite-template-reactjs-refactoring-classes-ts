@@ -1,7 +1,6 @@
 import { ReactNode, useEffect, useState } from 'react';
 import ReactModal from 'react-modal';
 
-
 interface ModalPros {
   isOpen: boolean;
   setIsOpen: () => void;

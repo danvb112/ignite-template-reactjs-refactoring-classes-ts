@@ -1,7 +1,7 @@
 import { FormHandles } from '@unform/core';
 import { createRef } from 'react';
 import { FiCheckSquare } from 'react-icons/fi';
-import Input from '../Input';
+import { Input } from '../Input';
 import { Modal } from '../Modal';
 import { Form } from './styles';
 
